@@ -1,0 +1,9 @@
+/* CSS reads from top to bottom */
+
+span{
+    color: red;
+}
+
+span {
+    color: royalblue;
+}
