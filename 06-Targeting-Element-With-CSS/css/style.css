@@ -1,0 +1,24 @@
+/* Targeting Element */
+
+p{
+    font-size: 10px;
+    color: purple;
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+div{
+    width: 100%;
+    background-color: grey;
+}
+
+h1 {
+    font-size: 50px;
+}
