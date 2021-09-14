@@ -1,0 +1,21 @@
+/***************************** 
+* Author: Shomnath Somu
+* CSS tutorial
+* Date: 14-09-2021
+*/
+
+/* Style all p tags */
+
+p{
+    font-size: 10px;
+    color: purple;
+}
+
+#header p{
+    font-size: 24px;
+}
+
+/* Style all header tags */
+h1 {
+    font-size: 50px;
+}
