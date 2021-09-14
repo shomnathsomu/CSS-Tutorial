@@ -1,0 +1,19 @@
+/* Targeting Element */
+
+h2{
+    font-size: 24px;
+}
+
+#contact-details{
+    font-size: 18px;
+    color: indigo;
+}
+
+span{
+    display: block;
+    color: indigo;
+}
+
+.footer {
+    color: red;
+}
