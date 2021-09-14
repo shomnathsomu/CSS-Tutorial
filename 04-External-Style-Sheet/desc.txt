@@ -1,0 +1,8 @@
+## BE EFFICIENT
+
+TIME CONSUMING
+-- Inline styling
+-- Embedded style sheets
+
+QUICKER AND EASIER
+- External style sheets
