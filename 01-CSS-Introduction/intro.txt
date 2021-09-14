@@ -1,0 +1,7 @@
+CSS is Presentation
+
+1. CSS stands for Cascading Style Sheet
+2. Constantly changing standards (Currently CSS3)
+3. CSS & CSS3 are the same thing!
+4. Varying support across browsers
+5. CSS controls presentation of HTML
