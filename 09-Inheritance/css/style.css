@@ -1,0 +1,16 @@
+body {
+    color: blue;
+}
+
+div{
+    color: blueviolet;
+}
+
+p{
+    color: greenyellow;
+}
+
+a {
+    color: rgb(224, 24, 91);
+    text-decoration: none;
+}
