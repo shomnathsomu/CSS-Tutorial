@@ -1,0 +1,22 @@
+/* 
+    We can think as following:
+    ID 100 points
+    Class 10 points
+    element 1 point
+*/
+
+#main-content p{
+    color: brown;
+}
+
+p{
+    color: chartreuse;
+}
+
+.test {
+    color: darkblue;
+}
+
+strong {
+    color: darkblue;
+}
