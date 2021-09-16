@@ -1,0 +1,44 @@
+/* 
+    We can think as following:
+    ID 100 points
+    Class 10 points
+    element 1 point
+*/
+
+/* Attribute selectors */
+
+span[class~="footer"]{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div[id] {
+    background: indigo;
+}
+
+div[id] > h2 {
+    background-color: green;
+}
+
+/* Styling P tag's adjacent li tag */
+ul[class] p+li{
+    background: dodgerblue;
+}
+
+a[title = "Watch videos"] {
+    background-color: gray;
+}
+
+/* href that ends with pdf */
+a[href$="pdf"] {
+    color: yellowgreen;
+}
+
+/* href that starts with http */
+a[href^="http"] {
+    color: white;
+    display: block;
+    background-color: black;
+}
