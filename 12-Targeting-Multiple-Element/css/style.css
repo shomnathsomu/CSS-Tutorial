@@ -1,0 +1,14 @@
+/* 
+    We can think as following:
+    ID 100 points
+    Class 10 points
+    element 1 point
+*/
+
+/* targeting multiple element */
+h1, a, span{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
