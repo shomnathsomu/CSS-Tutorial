@@ -5,6 +5,8 @@
     element 1 point
 */
 
+/* This one will target only the p tags under main-content div*/
+
 #main-content p{
     color: brown;
 }
@@ -16,6 +18,8 @@ p{
 .test {
     color: darkblue;
 }
+
+/* this one will work explicitly though it has 1 point only */
 
 strong {
     color: darkblue;
