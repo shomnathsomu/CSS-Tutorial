@@ -1,0 +1,40 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Pseudo selectors */
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: orange;
+}
+
+a:visited{
+    color: aqua;
+}
+
+#main-content:hover{
+    color: greenyellow;
+}
+
+article p:first-child{
+    font-weight: bolder;
+}
+
+article p:last-child{
+    color: red;
+}
+
+div[class="article"] p:first-of-type{
+    font-weight: bold;
+}
+
+div[class="article"] p:last-of-type{
+    color: red;
+}
