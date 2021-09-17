@@ -1,0 +1,25 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* nth child selectors */
+ul[id="lists"] li:nth-child(1), li:nth-child(7) {
+    font-weight: bold;
+}
+
+ul[id="lists"] li:nth-child(even) {
+    background-color: gray;
+}
+
+ul[id="lists"] li:nth-child(odd) {
+    background-color: pink;
+}
+
+ul[id="lists"] li:nth-child(2n+1) {
+    color: green;
+    font-size: 30px;
+}
