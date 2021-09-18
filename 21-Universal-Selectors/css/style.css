@@ -1,0 +1,15 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Universal selectors */
+* {
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
