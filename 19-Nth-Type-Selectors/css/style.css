@@ -1,0 +1,22 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* nth of type selectors */
+div[id="article"] article:nth-of-type(odd) {
+    font-weight: bold;
+    background-color: rgb(12, 248, 12);
+}
+
+div[id="article"] article:nth-of-type(2n) {
+    color: red;
+}
+
+div[id="article"] article:nth-of-type(4) {
+    font-size: 24px;
+}
+
