@@ -6,7 +6,16 @@
     - Advanced structural elements
 */
 
-/* Font Family */
+/* Text decoration */
 div[id="article"] {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+}
+
+a{
+    text-decoration: inherit;
+}
+
+a#check-balance{
+    text-decoration: line-through;
 }
