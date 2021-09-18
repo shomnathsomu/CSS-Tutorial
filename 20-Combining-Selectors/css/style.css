@@ -1,0 +1,20 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Combining selectors */
+div[id="lists"] article.featured-content{
+    background: red;
+}
+
+div[id="lists"] div.featured-content{
+    background: green;
+}
+
+div[id="lists"] div.featured-content a{
+    color: white;
+}
