@@ -1,0 +1,24 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Font Size */
+div[id="article"] {
+    font-size: 48px;
+}
+
+div[id="article"] h1 {
+    font-size: 2em;
+}
+
+div[id="article"] h2 {
+    font-size: 0.5em;
+}
+
+div[id="article"] p {
+    font-size: 50%;
+}
