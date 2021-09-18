@@ -1,0 +1,12 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Font Family */
+div[id="article"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
