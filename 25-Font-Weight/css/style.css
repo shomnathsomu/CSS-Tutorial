@@ -1,0 +1,17 @@
+/* 
+    Psuedo Classes?
+    Special selectors that go after selectors
+    They can be used to target:
+    - special behavioral states
+    - Advanced structural elements
+*/
+
+/* Font weight */
+h1 {
+    font-weight: normal;
+}
+
+p{
+    font-weight: lighter;
+    font-family: "Yu Gothic";
+}
