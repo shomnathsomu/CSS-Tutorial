@@ -1,0 +1,32 @@
+/* Borders */
+
+.box {
+    margin: 30px;
+    padding: 30px;
+    float: left;
+}
+
+.dashed{
+    border: 50px dashed blue;
+}
+.dotted {
+    border: 50px dotted blue;
+}
+.double {
+    border: 50px double blue;
+}
+.groove {
+    border: 50px groove blue;
+}
+.inset {
+    border: 50px inset blue;
+}
+.outset {
+    border: 50px outset blue;
+}
+.ridge {
+    border: 50px ridge blue;
+}
+.solid {
+    border: 50px solid blue;
+}
