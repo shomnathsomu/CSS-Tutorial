@@ -1,0 +1,14 @@
+/* Text color */
+
+#header h1{
+    color: chocolate;
+}
+
+/* Color in RGB format */
+#header h2{
+    color: #137828;
+}
+
+#header {
+    background-color: antiquewhite;
+}
