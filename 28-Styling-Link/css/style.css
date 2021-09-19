@@ -1,0 +1,13 @@
+/* Styling Links */
+
+a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
