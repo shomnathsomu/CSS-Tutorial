@@ -1,0 +1,23 @@
+/* Margins */
+/* Rotates clock wise */
+/* top right bottom left */
+/* {top, bottom} {right, left}*/
+/* top {right,left} bottom */
+
+.box {
+    margin: 30px 20px 10px 5px; 
+    border: 2px solid black;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.unbox {
+    margin: 30px auto; 
+    border: 2px solid black;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
