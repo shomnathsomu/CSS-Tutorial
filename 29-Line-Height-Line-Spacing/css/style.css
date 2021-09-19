@@ -1,0 +1,9 @@
+/* Line height & Letter spacing */
+
+p{
+    font-size: 16px;
+    letter-spacing: 0.5em;
+    font-family: "Yu Gothic";
+    word-spacing: 5px;
+    line-height: 1em;
+}
