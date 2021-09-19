@@ -1,0 +1,48 @@
+/* Backgrounds */
+
+body{
+    background: #eee;
+}
+
+#main-content{
+    background: #fff;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.circle-1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(200, 200, 100);
+    border-radius: 200px;
+    top: 100px;
+    left: 100px;
+    opacity: 1;
+    text-align: center;
+}
+
+.circle-2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(200, 100, 200);
+    border-radius: 200px;
+    top: 100px;
+    left: 250px;
+    opacity: 0.3;
+    text-align: center;
+}
+
+.circle-3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background: rgba(100, 200, 200, 0.7);
+    border-radius: 200px;
+    top: 200px;
+    left: 175px;
+    text-align: center;
+}
