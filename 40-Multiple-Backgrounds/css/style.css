@@ -1,0 +1,23 @@
+/* Backgrounds */
+
+body{
+    background: #eee;
+}
+
+#main-content{
+    background: #fff;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+.static-width {
+    width: 100%;
+    height: 480px;
+    background-image: url(../v.jpg), url(../space.jpg);
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%;
+    background-color: #606060;
+}
