@@ -1,0 +1,33 @@
+/* Block level elements */
+
+body{
+    background: #eee;
+}
+
+#main-content{
+    background: #fff;
+    width: auto;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+}
+
+.block {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.inline{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: block;
+}
+
+.inline-block{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
