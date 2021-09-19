@@ -1,0 +1,34 @@
+/* Block level elements */
+
+body{
+    background: #eee;
+}
+
+#main-content{
+    background: #fff;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+}
+
+#main-content div{
+    background-color: #ccc;
+    margin: 0 0 20px 0;
+}
+
+.static-width {
+    width: 500px;
+    height: 100px;
+}
+
+.percentage-width{
+    width: 100%;
+    height: 100px;
+}
+
+.inline-block {
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
