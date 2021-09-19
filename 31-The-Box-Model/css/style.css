@@ -1,0 +1,9 @@
+/* The box model */
+
+.box {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    width: auto;
+    height: auto;
+}
