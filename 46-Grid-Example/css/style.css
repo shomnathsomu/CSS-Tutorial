@@ -1,0 +1,101 @@
+/*******************(***
+    NUMBER GRID PAGE
+************************/
+
+.number-container{
+    display: grid;
+    /* grid-template-columns: 100px auto; */
+    
+    /* Using fractional units */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+
+    /* repeat function */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(2, 50px); */
+
+    /* grid-template: repeat(2, 50px) / repeat(3, 1fr); */
+
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* grid-template-rows: repeat(2, 100px); */
+
+    /* All rows are the same */
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+    gap: 3px;
+}
+
+.number-container > div{
+    padding: 10px;
+}
+
+.number-container > div:nth-child(odd){
+    background: #85C4B4;
+}
+
+.number-container > div:nth-child(even) {
+    background: #FE7361;
+}
+
+.number-container div:nth-child(4), .number-container div:nth-child(9) {
+    background: #FFC760;
+}
+
+.horizontal {
+    grid-column: auto / span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+/* **************
+    GRID PAGE
+****************** */
+
+.main-content {
+    height: 100%;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 200px 40px;
+    /* grid-template-areas: 
+    ". h h h h h h h h h h ."
+    "m m c c c c c c c c c c"
+    ". f f f f f f f f f f ."; */
+}
+
+.main-content > div {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+    background: turquoise;
+    grid-column: 1 / -1;
+    /* grid-area: h; */
+}
+
+.menu {
+    background: tomato;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    /* grid-area: m; */
+}
+
+.content {
+    background: steelblue;
+    grid-column: 3 / -1;
+    /* grid-area: c; */
+}
+
+.footer {
+    background: orange;
+    grid-column: 1 / -1;
+    /* grid-area: f; */
+}
